@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1765077518536239-1</unique-id>
+	<command>/nix/store/v7874laah80g8irnh9sj7a79qanxynb4-system-path/bin/kitty %f</command>
+	<description>Opens Terminal in current folder</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>image</icon>
+	<name>Set as Wallpaper</name>
+	<submenu></submenu>
+	<unique-id>1765077518536243-2</unique-id>
+	<command>swww img %f --transition-type fade --transition-duration 0.8</command>
+	<description></description>
+	<range></range>
+	<patterns>*.jpg;*.jpeg;*.png;*.gif</patterns>
+</action>
+<action>
+	<icon>edit-copy</icon>
+	<name>Copy Path</name>
+	<submenu></submenu>
+	<unique-id>1765077518536246-3</unique-id>
+	<command>echo -n %f | xclip -selection clipboard</command>
+	<description></description>
+	<range></range>
+	<patterns>*</patterns>
+</action>
+<action>
+	<icon>utilities-file-archiver</icon>
+	<name>Create ZIP Archive</name>
+	<submenu></submenu>
+	<unique-id>1765077518536248-4</unique-id>
+	<command>zip -r &quot;%f.zip&quot; &quot;%f&quot;</command>
+	<description></description>
+	<range></range>
+	<patterns>*</patterns>
+</action>
+</actions>

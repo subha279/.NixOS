@@ -1,0 +1,13 @@
+[Configuration]
+LastShowHidden=FALSE
+SidePaneView=tree
+LastLocationBar=pathbar
+LastStatusbarVisible=TRUE
+LastShowThumbnails=TRUE
+LastIconViewZoomLevel=THUNAR_ZOOM_MEDIUM
+DateStyle=THUNAR_DATE_STYLE_SIMPLE
+MiscSingleClick=FALSE
+MiscCaseSensitive=FALSE
+MiscOpenNewWindowAsTab=TRUE
+MiscDateFormat=%Y-%m-%d %H:%M
+MiscMenubarVisible=FALSE

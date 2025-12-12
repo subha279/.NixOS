@@ -1,0 +1,75 @@
+configuration {
+	show-icons: true;
+	scroll-method: 0;
+}
+
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       600px;
+    x-offset:                    0px;
+    y-offset:                    0px;
+    border-color:                @selected-normal-background;
+    border:                      2px;
+    border-radius:               12px;
+}
+
+inputbar {
+    enabled:                     true;
+    spacing:                     0px;
+    margin:                      0px 0%;
+    padding:                     0px 0px 10px 0px;
+    border:                      2px 2px 2px 2px;
+    border-radius:               10px;
+    border-color:                @selected-normal-background;
+    background-color:            transparent;
+    children:                    [ "entry" ];
+}
+entry {
+    enabled:                     true;
+    background-color:            transparent;
+    text-color:                  white;
+    cursor:                      text;
+    placeholder:                 "Type to filter";
+    placeholder-color:           inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}
+
+	mainbox {
+		children: [ inputbar, listview ];
+	}
+
+		listview {
+			columns: 6;
+			lines: 4;
+			cycle: false;
+			dynamic: false;
+			layout: vertical;
+			fixed-columns: true;
+		}
+
+			element {
+				orientation: vertical;
+				border-radius: 0%;
+				spacing: 4px;
+			}
+			element.selected {
+				background-color: transparent;
+				border-radius: 0%;
+			}
+
+element-icon {
+    background-color:            transparent;
+    size:                        48px;
+    cursor:                      inherit;
+}
+element-text {
+    background-color:            inherit;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+}
