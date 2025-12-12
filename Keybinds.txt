@@ -1,0 +1,79 @@
+NeoVIM KEYBINDS :
+
+Leader = Space
+Move Selected Line Up = Capital K
+Move Selected Line Down = Capital J
+Rename Same Words togather In Cursor = Leader rw
+Goto The Last Line = Control d
+Goto The First Line = Control u
+Tmux File Open With New Session = Control f 
+Search From Top = Small n 
+Search From Down =  Capital N
+Maximize Or Minimaize a Split = Leader sm
+Code Format = Leader gf
+
+-- Pane and Windows Navigation
+Navigate Left = Control h
+Navigate Down = Control j
+Navigate Up = Control k
+Navigate Right = Control l
+
+-- Window Management
+Split Vertically = Leader sv
+Split Horizontally = Leader sh
+
+-- NeoVIM COMPLETION
+Scroll Backword = Control b
+Scroll Forword = Control f
+Complete = Control Space
+Abort= Control e
+Confirm = <CR>
+
+-- NeoVIM DEBUGGING
+Toggle Break Point = Leader db
+Start Debugger = Leader dc
+
+-- NeoVIM GIT
+Git Preview Hunk = Leader gp
+Current Line Blame = Leader gt
+
+-- NeoVIM HARPOON (Will do later)
+
+-- NeoVIM LSP (Will do later)
+
+-- NeoVIM Telescope
+Find Files = Leader ff
+Change Color Scheme = Leader th
+Find Recent Files = Leader fo
+Find String = Leader fl
+Find String Under Cursor = Leader fg
+Find Todos = Leader ft
+
+-- NeoVIM Tree/FileManager
+Toggle File Explorer = Leader e 
+Focus File Explorer = Leader m
+
+-- NeoVIM Motion
+Change in word = ciw
+Change around word = caw
+Select in " " = vi"
+Change In brackets () = cib
+Select in {} = vi{
+Select any word = vaw
+
+
+TMUX KEYBINDS :
+Leader = Control Space
+Reload/Source Conf File = Leader r
+Pane Navigation =
+                Left = Leader h
+                Down = Leader d
+                Up = Leader u
+                Right = Leader l
+Split Windows = 
+                Split Horizontally = Leader |
+                Split Vertically = Leader _
+
+Split Windows in Current Path = 
+                Split Horizontally = Leader %
+                Split Vertically = Leader "

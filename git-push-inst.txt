@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m "anything"
+git branch -- to check branch
+git remote set-url origin git@git(your git repo url)
+first generate the ssh key (command -- ssh-keygen)
+ssh -T git@github.com
+git push origin main
